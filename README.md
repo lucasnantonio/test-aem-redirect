@@ -1,10 +1,10 @@
 # Twitter Community Notes
 
-![](/static/images/help-rate-this-note-expanded.png)
+![](/images/help-rate-this-note-expanded.png)
 
 ## Welcome to Community Notes's public repository
 
-This repository holds the source code and content for our [documentation website](https://twitter.github.io/communitynotes/), the [source code](https://github.com/twitter/communitynotes/tree/main/static/sourcecode) powering Community Notes under the hood, our [research paper](https://github.com/twitter/communitynotes/blob/main/birdwatch_paper_2022_10_27.pdf), and is a place for us to transparently share updates about the program.
+This repository holds the content for our [documentation website](https://twitter.github.io/communitynotes/), the [source code](https://github.com/twitter/communitynotes/tree/main/static/sourcecode) powering Community Notes under the hood, our [research paper](https://github.com/twitter/communitynotes/blob/main/birdwatch_paper_2022_10_27.pdf), and is a place for us to transparently share updates about the program.
 
 ## About Community Notes
 
@@ -28,11 +28,11 @@ You can also talk directly with the team building Community Notes on Twitter, at
 
 ---
 
-### Guide source code
+### Markdown content
 
-Our static documentation site (called "Community Notes Guide") is built with [Hugo](https://gohugo.io/), using the [Hugo Geekdoc theme](https://github.com/thegeeklab/hugo-geekdoc). Follow the instructions on the Hugo website for downloading and running Hugo.
+The markdown files under /guide_content are the source of truth, in English, for our website found at https://communitynotes.twitter.com/guide/. Every commit here triggers an update to the site, but it may take a while to reflect changes due to translations to other languages.
 
-### Community Notes source code
+### Community Notes algorithm source code
 
 The algorithm that powers Community Notes can be found on the [sourcecode folder](https://github.com/twitter/communitynotes/tree/main/static/sourcecode), and instructions on how to use it can be found in the [Guide](https://twitter.github.io/communitynotes/note-ranking-code/).
 
